@@ -1,0 +1,52 @@
+.header {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  font-weight: 500;
+  color: #292929;
+}
+.header-nav ul {
+  display: flex;
+}
+/* отступ для всех li в шапке кроме первой */
+.header-nav li + li {
+  margin-left: 70px;
+}
+.header-nav a {
+  transition: color 0.3s ease;
+}
+.header-nav a:hover {
+  color: #01996d;
+}
+.header-login a {
+  color: black;
+  transition: color 0.3s ease;
+}
+.header-login a:hover {
+  color: #01996d;
+}
+.btn,
+a.btn {
+  background-color: #01996d;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.btn,
+a.btn:hover {
+  color: black;
+}
+.signIn {
+  padding-right: 30px;
+}

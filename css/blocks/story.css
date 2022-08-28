@@ -1,0 +1,31 @@
+.story {
+  background-color: #245852;
+  padding: 229px 0 176px;
+  color: #fff;
+}
+.story-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.story-content {
+  margin-right: 30px;
+  max-width: 580px;
+}
+.story-heading {
+  font-family: 'Georgia', serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 79px;
+  margin-bottom: 33px;
+}
+.story-text {
+  margin-bottom: 57px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 39px;
+}
+.story-video {
+  max-width: 895px;
+  padding-top: 57.65%;
+}
