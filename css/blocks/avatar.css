@@ -1,0 +1,16 @@
+.avatar {
+  text-align: center;
+}
+.avatar-img {
+  margin-bottom: 13px;
+  width: 57.44px;
+  height: 57.44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.avatar-name {
+  font-size: 12px;
+}
+.card-avatar {
+  margin-bottom: 25px;
+}

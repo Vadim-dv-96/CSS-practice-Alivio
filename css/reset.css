@@ -63,10 +63,13 @@ p + p {
   margin-top: 1em;
 }
 
-ul,
-ul li {
+ul {
   list-style: none;
 }
+/* ul,
+ul li {
+  list-style: none;
+} */
 
 img {
   vertical-align: top;

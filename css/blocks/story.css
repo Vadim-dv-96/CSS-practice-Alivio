@@ -26,6 +26,24 @@
   line-height: 39px;
 }
 .story-video {
-  max-width: 895px;
-  padding-top: 57.65%;
+  width: 895px;
+  position: relative;
+}
+.story-video-object {
+  border-radius: 16px;
+}
+.story-video-overlay {
+  border-radius: 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.story-video-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

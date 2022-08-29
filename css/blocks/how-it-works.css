@@ -62,6 +62,9 @@
   line-height: 30px;
   margin-bottom: 60px;
 }
+/* .step-text + * {
+  margin-top: 60px;
+} */
 /* гибкий блок для картинки(если блок будет расти, то картинка подстроится 
 из-за padding-bottom: 126%(высота деленная на ширину дает цифру процента */
 .step-img-wrapper {
