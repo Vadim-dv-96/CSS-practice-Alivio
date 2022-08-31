@@ -9,6 +9,7 @@
   justify-content: space-between;
 }
 .header-nav {
+  margin-left: 50px;
   font-weight: 500;
   color: #292929;
 }
@@ -43,10 +44,35 @@ a.btn {
   font-size: 20px;
   border-radius: 4px;
 }
+@media (max-width: 991px) {
+  .btn,
+  a.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+  }
+}
 .btn,
 a.btn:hover {
   color: black;
 }
 .signIn {
   padding-right: 30px;
+}
+@media (max-width: 1199px) {
+  .header-nav {
+    margin-left: 0px;
+  }
+  .header-nav li + li {
+    margin-left: 50px;
+  }
+  .header-login {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .header-nav,
+  .header-login {
+    display: none;
+  }
 }

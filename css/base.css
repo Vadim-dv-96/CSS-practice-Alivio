@@ -5,6 +5,11 @@ body {
   color: #424242;
   /* min-width: 1600px; */
 }
+@media (max-width: 991px) {
+  body {
+    font-size: 18px;
+  }
+}
 .none {
   display: none !important;
 }
@@ -26,6 +31,19 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 1399px) {
+  .container {
+    width: 100%;
+  }
+}
 .container-wide {
   width: 1536px;
+}
+@media (max-width: 1535px) {
+  .container {
+    width: 100%;
+  }
+}
+.no-scroll {
+  overflow: hidden;
 }

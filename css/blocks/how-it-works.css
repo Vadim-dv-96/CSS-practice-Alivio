@@ -90,3 +90,48 @@
 .step03 {
   margin-top: 55px;
 }
+@media (max-width: 1399px) {
+  .how-it-works-subtitle {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .how-it-works-header-content {
+    padding-top: 20px;
+  }
+  .how-it-works {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .how-it-works-header {
+    flex-direction: column;
+    padding-bottom: 51px;
+  }
+}
+@media (max-width: 1250px) {
+  .step03 {
+    margin-left: 20px;
+  }
+  .step02 {
+    margin-left: 20px;
+  }
+  .how-it-works-steps {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1205px) {
+  .step03 {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 813px) {
+  .step02 {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 419px) {
+  .how-it-works-steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 95px;
+  }
+}

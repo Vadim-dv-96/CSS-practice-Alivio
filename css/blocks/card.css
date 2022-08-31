@@ -46,3 +46,8 @@
   line-height: 25px;
   margin-bottom: 22px;
 }
+@media (max-width: 500) {
+  .card {
+    max-width: 296px;
+  }
+}

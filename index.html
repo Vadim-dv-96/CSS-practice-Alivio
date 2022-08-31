@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/blocks/avatar.css" />
     <link rel="stylesheet" href="css/blocks/card.css" />
     <link rel="stylesheet" href="css/blocks/footer.css" />
+    <link rel="stylesheet" href="css/blocks/mobile-nav-button.css" />
+    <link rel="stylesheet" href="css/blocks/mobile-nav.css" />
 
     <!-- fonts -->
     <link rel="stylesheet" href="css/fonts/Georgia/stylesheet.css" />
@@ -38,9 +40,28 @@
             <a href="#" class="signIn">Sign in</a>
             <a href="#" class="btn">Start Trial</a>
           </div>
+          <button type="button" class="mobile-nav-button">
+            <span class="mobile-nav-button__icon"></span>
+          </button>
         </div>
       </div>
     </header>
+
+    <div class="mobile-nav">
+      <img class="mobile-nav-logo" src="./img/Logo.svg" alt="Logo" />
+      <nav class="mobile-nav-list">
+        <ul>
+          <li><a href="#"> Why Alivio </a></li>
+          <li><a href="#"> Solutions </a></li>
+          <li><a href="#"> Community </a></li>
+          <li><a href="#"> Pricing </a></li>
+        </ul>
+      </nav>
+      <div class="mobile-login">
+        <a href="#" class="signIn">Sign in</a>
+        <a href="#" class="btn">Start Trial</a>
+      </div>
+    </div>
 
     <main>
       <section class="home">
@@ -203,5 +224,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
