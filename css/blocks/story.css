@@ -26,6 +26,7 @@
   line-height: 39px;
 }
 .story-video {
+  z-index: 10;
   max-width: 895px;
   position: relative;
 }
@@ -33,6 +34,7 @@
   border-radius: 16px;
 }
 .story-video-overlay {
+  z-index: 20;
   border-radius: 16px;
   position: absolute;
   left: 0;
@@ -40,8 +42,18 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease;
+}
+.story-video-overlay.hidden {
+  opacity: 0;
+}
+.story-video-object {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
 }
 .story-video-btn {
+  z-index: 30;
   position: absolute;
   left: 50%;
   top: 50%;
